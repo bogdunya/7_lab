@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <iostream>//commit 1
+using namespace std;//commit 1
 
 // функция для ввода элементов массива
 void inputArray(int arr[], int n) {
