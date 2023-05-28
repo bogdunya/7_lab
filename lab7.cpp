@@ -12,8 +12,8 @@ void inputArray(int arr[], int n) {//commit 2
 // функция для объединения двух массивов в один//commit 4
 void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {//commit 4
     int i=0, j=0, k=0;
-    while(i < n1 && j < n2) {
-        if(arr1[i] < arr2[j]) {
+    while(i < n1 && j < n2) {//commit 5
+        if(arr1[i] < arr2[j]) {//commit 5
             arr3[k++] = arr1[i++];
         } else {
             arr3[k++] = arr2[j++];
