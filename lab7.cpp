@@ -5,8 +5,8 @@ using namespace std;//commit 1
 void inputArray(int arr[], int n) {//commit 2
     for(int i=0; i<n; i++) {
         cout << "Введите элемент массива: ";
-        cin >> arr[i];
-    }
+        cin >> arr[i];//commit 3
+    }//commit 3
 }
 
 // функция для объединения двух массивов в один
