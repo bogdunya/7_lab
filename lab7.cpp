@@ -1,8 +1,8 @@
 #include <iostream>//commit 1
 using namespace std;//commit 1
 
-// функция для ввода элементов массива
-void inputArray(int arr[], int n) {
+// функция для ввода элементов массива//commit 2
+void inputArray(int arr[], int n) {//commit 2
     for(int i=0; i<n; i++) {
         cout << "Введите элемент массива: ";
         cin >> arr[i];
