@@ -4,8 +4,8 @@ using namespace std;//commit 1
 // функция для ввода элементов массива//commit 2
 void inputArray(int arr[], int n) {//commit 2
     for(int i=0; i<n; i++) {
-        cout << "Введите элемент массива: ";
-        cin >> arr[i];//commit 3
+        cout << "Введите элемент массива: ";//commit 7
+//commit 7        cin >> arr[i];//commit 3
     }//commit 3
 }
 
