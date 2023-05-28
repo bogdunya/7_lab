@@ -27,8 +27,8 @@ void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {//commit 4
     }
 }
 
-// функция для вывода объединенного массива на экран
-void printArray(int arr[], int n) {
+// функция для вывода объединенного массива на экран//commit 10
+void printArray(int arr[], int n) {//commit 10
     cout << "Объединенный массив: ";
     for(int i=0; i<n; i++) {
         cout << arr[i] << " ";
