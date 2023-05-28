@@ -17,8 +17,8 @@ void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {//commit 4
             arr3[k++] = arr1[i++];
         } else {
             arr3[k++] = arr2[j++];
-        }
-    }
+        }//commit 6
+    }//commit 6
     while(i < n1) {
         arr3[k++] = arr1[i++];
     }
